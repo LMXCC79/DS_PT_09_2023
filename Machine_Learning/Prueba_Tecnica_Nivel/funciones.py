@@ -38,6 +38,7 @@ def verificador_unidades(strings):
                 unidades.add(unit)
     return unidades
 
+
 # Aplicar One_Hot_Encoder a Train y a Test
 def apply_onehot_encoder(train:pd.DataFrame, columns_to_encode:list, test:pd.DataFrame=None):
     
